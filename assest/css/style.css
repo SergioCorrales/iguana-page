@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #000;
+}
+header {
+    width: 1280px;
+    margin: auto;
+}
+h1 {
+    color: #fff;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    height: 57px;
+    padding: 8px 0;
+}
+h2{
+    color: #fff;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 75px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+h3{
+    color: #fff;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+h4{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #fff;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+}
+.banner {  
+    height: 727px;
+    width: 100%;
+    background: #000 url("../img/bg-header.jpg") center no-repeat;  
+}
+section{
+    width: 1280px;
+}
+.info {
+    background-color: #000;
+    color: #fff;
+    margin: auto;
+    height: 348px;
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 106px;
+}
+.txt-info {
+    width: 475px;
+    margin-left: 150px;
+}
+.img-info {
+    width: 399px;
+    height: 237px;
+    margin-right: 150px;
+}
+.caracteristicas{
+    background-color: #1E1A13;
+    width: 1280px;
+    height: 348px;
+    margin: auto;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+.icon-txt{
+    width: 200px;
+}
+.fa-eye{
+    color: #fff;
+    font-size: 300%;
+    padding-bottom: 16px;
+}
+.fa-hand-peace{
+    color: #fff;
+    font-size: 300%;
+    padding-bottom: 16px;
+}
+.fa-paintbrush{
+    color: #fff;
+    font-size: 300%;
+    padding-bottom: 16px;
+}
+figure{
+    width: 1280px;
+    margin: auto;
+}
+.galeria-imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    height: 348px;
+    flex-direction: row;
+    align-items: center;
+}
+.iguana-2 {
+    width: 316px;
+    height: 202px;
+}
+.iguana-3 {
+    width: 316px;
+    height: 202px;
+}
+.iguana-4 {
+    width: 316px;
+    height: 202px;
+}
+footer{
+    width: 1280px;
+    height: 102px;
+    margin: auto;
+    background: #1E1A13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    color: #fff;
+}
+footer a:hover{
+    color: #80FF00
+}
